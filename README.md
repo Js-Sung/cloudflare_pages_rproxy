@@ -1,6 +1,6 @@
 # cloudflare_pages_rproxy
-基于cloudflare pages的简易反向代理
-A simple reverse proxy based on cloudflare pages
+- 基于cloudflare pages的简易反向代理
+- A simple reverse proxy based on cloudflare pages
 
 ## 简介
 - 本项目实现反代任意网站，并在服务端替换网页中的超链接为反代链接。（处理非常简陋，访问一些简单的网站还是可以的，想要更好的浏览体验可以使用[jsproxy](https://github.com/EtherDream/jsproxy)）
