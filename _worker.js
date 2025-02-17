@@ -50,8 +50,8 @@ export default {
                 } else {
                   lo = url.origin + '\/' + key + '\/' + url_real.origin + '\/' + r;
                 }
-                console.log('local:', r);
-                console.log('new local:', lo);
+                //console.log('local:', r);
+                //console.log('new local:', lo);
                 res1.headers.set('location', lo);
               }
             } else {
@@ -73,7 +73,7 @@ export default {
 
               //var reg1 = new RegExp('("|\'|\\()(https?:(?:\\\\?\/){2})', 'ig');
 
-              console.log('---------text----------');
+              //console.log('---------text----------');
               //console.log(text);
               //var new_t = text.replace(reg1, "$1\/" + key + "\/$2");
               //var new_t = text;
